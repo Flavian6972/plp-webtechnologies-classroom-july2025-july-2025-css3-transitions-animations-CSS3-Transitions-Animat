@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Animations and Transitions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Making Webpages Alive with CSS3 Tansitions, Animations & JavaScript</h1>
+    <div class="container">
+        <div class ='guessing-game'> 
+            <p>Hello futureDev! Welcome to our interactive page</p>
+            <p>Let's play a small guessing game</p>
+            <Label for="luckyNum">What is today's lucky number:</Label>
+            <input type="text" id="lucky" name="luckyNum" placeholder="Try your luck 😁" required>
+            <button id="btn">Submit</button>
+            <p id ='nan' style="display: none; color: red;">Enter a valid number</p> 
+            <p id="null" style="display: none;color: red;">Input is required</p>
+            <p id="fail" style="display: none;color: brown;">Ooops! You got it wrong. Please try again.</p> 
+            <p id="success" style="display: none;color: green;">Yaay!You got it correct!👍🏿</p>
+        </div>
+
+        <div class ='transition' >
+            <h2>Explore the magic of CSS!</h2>
+            <p>Hover over the image below to see what happens...</p>
+            <img src="Images/Img6.jpg" alt="Bush Flower" width="400" height="auto"><br>
+        </div> 
+
+        <div class ='slideshow'>
+            <h2>Time to say Goodbye...</h2>
+            <p>Thanks for visiting our page ❤. You deserve some flowers </p>
+            <div class="image-box">
+                <img src="Images/Img1.jpg" alt="Purple flowers" width="400px" height="240">
+                <img src="Images/Img2.jpg" alt="Pink flowers" width="400px">
+                <img src="Images/Img3.jpg" alt="Hibiscus" width="400px" >
+                <img src="Images/Img4.jpg" alt="Sunflower" width="400px" height="240" >
+                <img src="Images/Img5.jpg" alt="Blue flowers" width="400px" height="240">
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script> 
+</body>
+</html>
